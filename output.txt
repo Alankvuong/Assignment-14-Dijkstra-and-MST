@@ -1,0 +1,100 @@
+*******************************************************
+*  PROGRAMMED BY : Alan Vuong, Caleb Yun, Ethan Bockler
+*  CLASS         : CS1D
+*  ASSIGN #14    : Dijkstra and MST
+*******************************************************
+
+/************************************************************
+* Assignment Description
+*------------------------------------------------------------
+* This program implements dijkstra's algorithm using an 
+* adjacency matrix and the algorithm is implemented with the 
+* dijkstra class. First the nodes and edges are all input 
+* and then the startDijkstra and print functions are called.
+* The output lists the destination, the total distance that 
+* was travelled on the path, and all of the vertices visited
+* on the path. For part 2, the minimum spanning tree is 
+* implemented using a adjacency list and a priority queue. 
+* The nodes and edges are all input and the startMst function
+* is called. The edges of the MST are outputed and after the
+* total distance of the MST is output.
+***************************************************************/
+
+PART 1: DIJKSTRA
+
+Chicago
+Distance: 1029
+Path: Dallas, Kansas City, Chicago
+
+
+Seattle
+Distance: 2426
+Path: Dallas, Kansas City, Denver, Seattle
+
+
+Boston
+Distance: 1883
+Path: Dallas, Atlanta, New York, Boston
+
+
+San Francisco
+Distance: 1816
+Path: Dallas, Los Angeles, San Francisco
+
+
+Denver
+Distance: 1095
+Path: Dallas, Kansas City, Denver
+
+
+New York
+Distance: 1669
+Path: Dallas, Atlanta, New York
+
+
+Los Angeles
+Distance: 1435
+Path: Dallas, Los Angeles
+
+
+Kansas City
+Distance: 496
+Path: Dallas, Kansas City
+
+
+Atlanta
+Distance: 781
+Path: Dallas, Atlanta
+
+
+Dallas
+Distance: 0
+Path: Dallas
+
+
+Houston
+Distance: 239
+Path: Dallas, Houston
+
+
+Miami
+Distance: 1426
+Path: Dallas, Houston, Miami
+
+
+PART 2: MST
+
+Edges:
+San Francisco - Seattle
+New York - Boston
+Los Angeles - San Francisco
+Kansas City - Denver
+Chicago - New York
+Denver - Los Angeles
+Chicago - Kansas City
+Dallas - Atlanta
+Kansas City - Dallas
+Dallas - Houston
+Atlanta - Miami
+
+Total distance: 6513
